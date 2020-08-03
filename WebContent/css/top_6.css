@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;
+	transition:all 0.3s;
+	list-style:none;
+}
+body{
+	font-family:"Arial";
+	font-size:18px;
+	background:#f4f4f4;
+}
+a{
+	dispaly:block;
+	text-decoration:none;
+}
+img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+h1{
+	color:#FF8C00;
+}
+h3{
+	color:#FF8C00;
+	margin-left:15%;
+	font-size:20px;
+}
+h4{
+	color:red;
+	margin-left:15%;
+	font-size:21px;
+}
+/*top*/
+.top_6{
+	width:1330px; 
+	height:180px;
+	background:url("../img/Bookstore.png");
+	background-size:100% 100%;
+	position:relative;
+}
+.top_6 p{
+	float:center;
+	padding-left:38%;
+	padding-top:83px;
+}
+.top_6 p.explore{
+	height:180px;
+}
+.top_6 p input.ie{
+	border-radius:5px;
+	width:330px;
+	height:40px;
+	font-size:22px;
+	border:0px;
+}
+.top_6 p input.ie:hover{
+	box-shadow:0 0 10px #fff;
+}
+.top_6 p input.sousuo{
+	width:90px;
+	height:40px;
+	border-radius:4px;
+	background:#FF0000;
+	border:0px;
+	font-size:17px;
+	color:#fff;
+}
+.top_6 p input.sousuo:hover{
+	cursor:pointer;
+	background:#FF8C00	;
+	color:#fff;
+	box-shadow:0 0 10px #fff;
+}
+.top_6 p.submit{
+	margin-right:0px;
+	height:50px;
+	width:120px;
+	padding-top:130px;
+}
+.top_6 p.submit a{
+	float:right;
+	padding:8px;
+	color:#fff;
+}
+.top_6 p.submit a:hover{
+	font-size:20px;
+	text-shadow:0 0 10px #800d20;
+}
+.top_6 a{
+	position:absolute;
+	right:12px;
+	bottom:20px;
+	font-size:20px;
+	color:red;
+	font-weight:700;
+}
+/*nav_6*/
+.nav_6{
+	width:1330px;
+	height:60px;
+	background:url(../img/nav.png);
+	background-size:100% 100%;
+	margin-top:3px;
+	border-radius:5px;
+}
+.nav_6 ul li{
+	padding:18px;
+	float:left;
+}
+.nav_6 ul li a{
+	color:#fff;
+	font-size:17px;
+}
+.nav_6 ul li a:hover{
+	font-size:18px;
+	text-shadow:0 0 10px #000;
+}
+.nav_6 span{
+	color:#fff;
+	font-size:19px;
+	float:right;
+	padding-right:20px;
+	padding-top:18px;
+}
